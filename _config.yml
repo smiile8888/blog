@@ -22,7 +22,7 @@ resume-external: true
 resume-url: https://google.com/?q=my+resume
 
 # url: https://sergiokopplin.github.io/indigo
-parent-url: http://thesmile.me/
+parent-url: http://thesmile.me
 url: https://thesmile.me/blog
 
 permalink: /:title/
