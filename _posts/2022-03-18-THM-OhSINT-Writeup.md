@@ -2,7 +2,7 @@
 title: "THM: OhSINT Writeup"
 
 Created: March 18, 2022 5:25 PM
-Last edited: March 18, 2022 6:41 PM
+last-updated: March 18, 2022 6:41 PM
 
 layout: post
 tag:

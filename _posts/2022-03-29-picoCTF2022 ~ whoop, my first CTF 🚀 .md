@@ -2,7 +2,7 @@
 title: "picoCTF2022 ~ whoop, my first CTF 🚀"
 
 Created: March 21, 2022 11:51 PM
-Last edited: April 18, 2022 11:31 AM
+last-updated: April 18, 2022 11:31 AM
 Tags: 
 - Cybersecurity
 - CTF

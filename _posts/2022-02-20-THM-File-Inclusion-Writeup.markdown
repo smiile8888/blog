@@ -2,7 +2,7 @@
 title: "THM: File Inclusion Writeup"
 
 Created: February 20, 2022 4:26 PM
-Last edited: February 20, 2022 10:42 PM
+last-updated: February 20, 2022 10:42 PM
 Tags: 
 - Cybersecurity
 - File Inclusion
