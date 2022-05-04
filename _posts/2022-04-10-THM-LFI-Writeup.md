@@ -1,8 +1,10 @@
 ---
 title: "THM: LFI Writeup"
 
-Created: March 28, 2022 11:59 PM
-last-updated: April 10, 2022 5:50 PM
+date: 2022-04-10 17:50
+
+# Created: March 28, 2022 11:59 PM
+# last-updated: April 10, 2022 5:50 PM
 tags: 
 - Cybersecurity
 - Inclusion

@@ -1,6 +1,8 @@
 ---
 title: "picoCTF2022: Local Authority"
 
+date: 2022-04-08 21:09
+
 layout: post
 tags: 
 - CTF

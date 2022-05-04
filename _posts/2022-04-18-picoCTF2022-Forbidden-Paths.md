@@ -1,6 +1,8 @@
 ---
 title: "picoCTF2022: Forbidden Paths"
 
+date: 2022-04-18 20:19
+
 layout: post
 tags: 
 - CTF

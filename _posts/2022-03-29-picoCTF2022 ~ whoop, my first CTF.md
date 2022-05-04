@@ -1,9 +1,11 @@
 ---
-title: "picoCTF2022 ~ whoop, my first CTF 🚀"
+title: "picoCTF2022 ~ whoop, my first CTF"
 
-Created: March 21, 2022 11:51 PM
-last-updated: April 18, 2022 11:31 AM
-Tags: 
+date: 2022-03-21 11:31
+
+# Created: March 21, 2022 11:51 PM
+# last-updated: April 18, 2022 11:31 AM
+tags: 
 - Cybersecurity
 - CTF
 - picoCTF

@@ -7,7 +7,7 @@ date: 2022-03-18 18:41
 # last-updated: March 18, 2022 6:41 PM
 
 layout: post
-tag:
+tags:
 - Cybersecurity
 - OSINT
 - THM
