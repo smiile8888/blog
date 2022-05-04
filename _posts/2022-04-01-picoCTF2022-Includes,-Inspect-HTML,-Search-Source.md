@@ -26,7 +26,7 @@ On the website, there is only one button; when clicking it, the alert says “He
 
 Let’s inspect the source code.
 
-![Untitled](/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF%20%F0%9F%9A%80/2022-04-01-picoCTF2022-Includes%2C-Inspect-HTML%2C-Search-Source/Untitled.png)
+![Untitled](/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-04-01-picoCTF2022-Includes%2C-Inspect-HTML%2C-Search-Source/Untitled.png)
 
 There are two files included in the html. Let’s look at those!
 
