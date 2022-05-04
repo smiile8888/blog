@@ -23,8 +23,8 @@ resume-url: https://google.com/?q=my+resume
 
 # url: https://sergiokopplin.github.io/indigo
 parent-url: http://thesmile.me
-url: https://thesmile.me
-baseurl: /blog
+url: https://thesmile.me/blog
+# baseurl: /blog
 
 permalink: /:title/
 
@@ -76,7 +76,7 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: false
-blog: true
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -94,7 +94,7 @@ post-advance-links: [blog, projects]
 show-author: false
 
 # do you want some animations?
-animation: true
+animation: false
 
 # add default values to specific pages or layouts
 defaults:
