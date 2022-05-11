@@ -33,7 +33,7 @@ Alright, it has to be something behind the scene but part of it. Well, it could 
 
 Alright, next could be some hidden paths and files. How to find it? One potential place to look for that is `/robots.txt.` Shall we go check it out?
 
-![Untitled](/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-03-30-picoCTF2022-Roboto-Sans/Untitled.png)
+![Untitled]({{ site.baseurl }}/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-03-30-picoCTF2022-Roboto-Sans/Untitled.png)
 
 Hah! got you! 
 

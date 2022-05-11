@@ -37,11 +37,11 @@ Hmm, I went blank..., but the hint tells me to use [Exiftool](https://exiftool.o
 
 Go to the website and install if you haven’t already. And let’s see what can be found on the image!
 
-![Untitled](/assets/posts/2022-03-18-THM-OhSINT-Writeup/Untitled.png)
+![Untitled]({{ site.baseurl }}/assets/posts/2022-03-18-THM-OhSINT-Writeup/Untitled.png)
 
 One interesting field is ***“Copyright.”*** Looks like someone named ***“OWoodflint”*** owns this image. Let’s google him, shall we? The following attachment shows my search results on Google. Let’s check these top 3 out.
 
-![Untitled](/assets/posts/2022-03-18-THM-OhSINT-Writeup/Untitled%201.png)
+![Untitled]({{ site.baseurl }}/assets/posts/2022-03-18-THM-OhSINT-Writeup/Untitled%201.png)
 
 Above all three, only the account on Twitter has the recognized avatar; so that’d be the answer for Q.1.
 
@@ -59,7 +59,7 @@ From Q.2, you have to create an account on [wigle.net](http://wigle.net) to be a
 
 Note that, when you create an account, wigle mentions that you don’t even have to use the actual information to register; find out more on the website yourself.
 
-![Untitled](/assets/posts/2022-03-18-THM-OhSINT-Writeup/Untitled%202.png)
+![Untitled]({{ site.baseurl }}/assets/posts/2022-03-18-THM-OhSINT-Writeup/Untitled%202.png)
 
 If you want to learn more about wigle, [the article on OSINT Curious](https://osintcurio.us/2019/01/15/tracking-all-the-wifi-things/) wrote in detail.
 

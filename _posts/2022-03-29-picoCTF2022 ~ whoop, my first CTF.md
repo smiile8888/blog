@@ -22,12 +22,12 @@ There are 5 main categories: ***Web Exploitation, Cryptography, Forensics, Binar
 
 There are 12 challenges for Web Exploitation category, covering XSS, SQLi, Broken Access, and so on. Below is write-ups for each challenge.
 
-[picoCTF2022: Includes, Inspect HTML, Search Source](/picoCTF2022-Includes,-Inspect-HTML,-Search-Source)
+[picoCTF2022: Includes, Inspect HTML, Search Source]({{ site.baseurl }}/picoCTF2022-Includes,-Inspect-HTML,-Search-Source)
 
-[picoCTF2022: Local Authority](/picoCTF2022-Local-Authority)
+[picoCTF2022: Local Authority]({{ site.base.url }}/picoCTF2022-Local-Authority)
 
-[picoCTF2022: Forbidden Paths](/picoCTF2022-Forbidden-Paths)
+[picoCTF2022: Forbidden Paths]({{ site.baseurl }}/picoCTF2022-Forbidden-Paths)
 
-[picoCTF2022: Power Cookies](/picoCTF2022-Power-Cookies)
+[picoCTF2022: Power Cookies]({{ site.baseurl }}/picoCTF2022-Power-Cookies)
 
-[picoCTF2022: Roboto Sans](/picoCTF2022-Roboto-Sans)
+[picoCTF2022: Roboto Sans]({{ site.baseurl }}/picoCTF2022-Roboto-Sans)

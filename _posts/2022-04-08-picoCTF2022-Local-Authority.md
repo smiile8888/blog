@@ -25,7 +25,7 @@ tags:
 
 There is a login form on the website. Let’s see what’s in the source 🔍
 
-![Untitled](/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-04-08-picoCTF2022-Local-Authority/Untitled.png)
+![Untitled]({{ site.baseurl }}/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-04-08-picoCTF2022-Local-Authority/Untitled.png)
 
 Nothing much on the page really. No `.js` file as well. The form is sending a `POST` request to `/login.php` Let’s try logging in!
 
@@ -36,15 +36,15 @@ Nothing much on the page really. No `.js` file as well. The form is sending a `P
 
 You won’t be successfully log in, BUT you see what sources come with the request?
 
-![Untitled](/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-04-08-picoCTF2022-Local-Authority/Untitled%201.png)
+![Untitled]({{ site.baseurl }}/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-04-08-picoCTF2022-Local-Authority/Untitled%201.png)
 
 Double check with the `login.php` source, the `secure.js` and `style.css` are included. Let’s look at those files, shall we?
 
-![Untitled](/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-04-08-picoCTF2022-Local-Authority/Untitled%202.png)
+![Untitled]({{ site.baseurl }}/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-04-08-picoCTF2022-Local-Authority/Untitled%202.png)
 
 Nothing in css file. In `secure.js`, turns out, it’s not that secured at all. It’s hard-coded checking credentials. 
 
-![Untitled](/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-04-08-picoCTF2022-Local-Authority/Untitled%203.png)
+![Untitled]({{ site.baseurl }}/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-04-08-picoCTF2022-Local-Authority/Untitled%203.png)
 
 Once you get those credentials, go back and log in again. The flag shall be revealed 🚩 
 

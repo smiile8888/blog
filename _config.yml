@@ -23,8 +23,8 @@ resume-url: https://google.com/?q=my+resume
 
 # url: https://sergiokopplin.github.io/indigo
 parent-url: https://smiile8888.github.io
-url: https://smiile8888.github.io/blog
-# baseurl: /blog
+url: https://smiile8888.github.io
+baseurl: /blog
 
 permalink: /:title/
 

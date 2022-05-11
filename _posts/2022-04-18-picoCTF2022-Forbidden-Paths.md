@@ -28,13 +28,13 @@ This is a classic problem of file inclusion. If you want to learn more ***what t
 
 Come back to the problem. First thing first, let’s go the website.
 
-![Untitled](/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-04-18-picoCTF2022-Forbidden-Paths/Untitled.png)
+![Untitled]({{ site.baseurl }}/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-04-18-picoCTF2022-Forbidden-Paths/Untitled.png)
 
 There is nothing really, excepts the input box that we can do something with. From the description, it says *“the website is filtering absolute file paths”.* Should we try if that is true?
 
 Yepper, it show back `Not Authorized`.
 
-![Untitled](/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-04-18-picoCTF2022-Forbidden-Paths/Untitled%201.png)
+![Untitled]({{ site.baseurl }}/assets/posts/2022-03-29-picoCTF2022%20~%20whoop%2C%20my%20first%20CTF/2022-04-18-picoCTF2022-Forbidden-Paths/Untitled%201.png)
 
 So what else can we do to access files? A relative path it is.
 
