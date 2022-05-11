@@ -1,15 +1,13 @@
 <nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
     <ul class="list">
-        {% if page.title != "Home" %}
-            <li class="item">
-                <a class="link" href="{{ site.parent-url }}/">SMILE's</a>
-            </li>
-        {% endif %}
+        <li class="item">
+            <a class="link" href="{{ site.url }}/">SMILE's</a>
+        </li>
 
         {% if site.blog == true %}
-            {% if page.title != "Blog" %}
+            {% if page.title != "Home" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/">BLOG</a>
+                    <a class="link" href="{{ site.baseurl }}/">BLOG</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -17,7 +15,7 @@
         {% if site.projects == true %}
             {% if page.title != "Projects" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/projects">PROJECTS</a>
+                    <a class="link" href="{{ site.baseurl }}/projects">PROJECTS</a>
                 </li>
             {% endif %}
         {% endif %}
