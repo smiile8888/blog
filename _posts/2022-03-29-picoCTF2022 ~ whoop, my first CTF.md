@@ -1,5 +1,6 @@
 ---
 title: "picoCTF2022 ~ whoop, my first CTF"
+emoji: "⛳️"
 
 date: 2022-03-21 11:31
 

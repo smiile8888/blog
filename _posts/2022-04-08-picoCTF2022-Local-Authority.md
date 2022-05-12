@@ -1,5 +1,6 @@
 ---
 title: "picoCTF2022: Local Authority"
+emoji: "⛳️"
 
 date: 2022-04-08 21:09
 

@@ -1,5 +1,6 @@
 ---
 title: "THM: File Inclusion Writeup"
+emoji: "🧙‍♀️"
 
 date: 2022-02-20 16:26
 

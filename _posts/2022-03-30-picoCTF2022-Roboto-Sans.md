@@ -1,5 +1,6 @@
 ---
 title: "picoCTF2022: Roboto Sans"
+emoji: "⛳️"
 
 date: 2022-03-30 12:34
 

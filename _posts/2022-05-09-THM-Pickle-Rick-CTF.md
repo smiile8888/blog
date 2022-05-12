@@ -1,5 +1,6 @@
 ---
 title: "THM: Pickle Rick CTF"
+emoji: "⛳️"
 
 created: May 9, 2022 3:11 PM
 last edited: May 9, 2022 7:04 PM
@@ -42,7 +43,7 @@ Fig1: nmap result on the targeted maching
 
 Let’s go to the website and view page source:
 
-![Fig 2: page source of the landing page]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled1.png)
+![Fig 2: page source of the landing page]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled%201.png)
 
 Fig 2: page source of the landing page
 
@@ -52,7 +53,7 @@ Let’s check `robots.txt`, in case, it might disallow some valuable paths.
 
 😂 NOTHING, excepts ...
 
-![Fig 3: robots.txt]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled2.png)
+![Fig 3: robots.txt]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled%202.png)
 
 Fig 3: robots.txt
 
@@ -70,7 +71,7 @@ There are directories found, including `/assets/`, `/icon/`, `denied.php`, `/log
 
 Once successfully logged in, we will be at `/portal.php`. There are menus but only `Command` menu seems to be able to access.
 
-![Fig 4: /portal.php]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled3.png)
+![Fig 4: /portal.php]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled%203.png)
 
 Fig 4: /portal.php
 
@@ -78,7 +79,7 @@ Let’s try entering some commands ⌨️
 
 I tried `ls` command:
 
-![Fig 5: results of `ls` command]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled4.png)
+![Fig 5: results of `ls` command]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled%204.png)
 
 Fig 5: results of `ls` command
 
@@ -89,7 +90,7 @@ There are two outstanding files: `Sup3rS3cretPickl3Ingred.txt` and `clue.txt`. L
 
 Just have fun with it 😉
 
-![Fig 6: results of `grep -R .` command]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled5.png)
+![Fig 6: results of `grep -R .` command]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled%205.png)
 
 Fig 6: results of `grep -R .` command
 
@@ -99,7 +100,7 @@ To get all other ingredients, we can actually use the interface to execute a com
 
 Before that, let’s check what else is on the server, e.g., Python, netcat, etc. In my case, I checked Python and Python3 by using a command `which Python` and `which Python3`. And there is a Python3 installed on the server.
 
-![Fig 7: result of `which python3` command]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled6.png)
+![Fig 7: result of `which python3` command]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled%206.png)
 
 Fig 7: result of `which python3` command
 
@@ -128,7 +129,7 @@ $: nc -lvnp 4444
 
 Whoops, there we go! We got the reverse shell.
 
-![Fig 8: reverse shell on local machine listening on port 4444]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled7.png)
+![Fig 8: reverse shell on local machine listening on port 4444]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled%207.png)
 
 Fig 8: reverse shell on local machine listening on port 4444
 
@@ -140,7 +141,7 @@ Now, it’s time to escalate 🔓
 
 Using `sudo -l` to see things that this user can execute as a root user. Turned out, this user can use `sudo` command with *everything* and ***without a password*** 💥
 
-![Fig 9: user’s permission with `sudo` command]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled8.png)
+![Fig 9: user’s permission with `sudo` command]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled%208.png)
 
 Fig 9: user’s permission with `sudo` command
 
@@ -148,7 +149,7 @@ Okay, cool. We can go to `/home` and see who else is here.
 
 There are `Rick` and `Ubuntu`, so the guess is Rick would be the REAL Rick. Let’s check it out. 
 
-![Fig 10: list of files under `/home/rick` directory]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled9.png)
+![Fig 10: list of files under `/home/rick` directory]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled%209.png)
 
 Fig 10: list of files under `/home/rick` directory
 
@@ -168,7 +169,7 @@ You should be able to get the third ingredient. And that’s done 👍
 
 **BUT** I wanted more, I manipulated some other files and get a rot shell since this user can use `sudo` with anything and doesn’t require a password for it. One way I remember is by launching shell via `journalctl`. Other ways, heading to [GTFOBins](https://gtfobins.github.io/) to explore 😉
 
-![Fig 12: root shell through `journalctl` and list of files under `/root` directory]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled10.png)
+![Fig 12: root shell through `journalctl` and list of files under `/root` directory]({{ site.baseurl }}/assets/posts/2022-05-09-THM-Pickle-Rick-CTF/Untitled%2010.png)
 
 Fig 12: root shell through `journalctl` and list of files under `/root` directory
 

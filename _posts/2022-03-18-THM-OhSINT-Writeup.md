@@ -1,5 +1,6 @@
 ---
 title: "THM: OhSINT Writeup"
+emoji: "🧙‍♀️"
 
 date: 2022-03-18 18:41
 

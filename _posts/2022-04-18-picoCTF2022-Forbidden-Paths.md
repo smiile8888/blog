@@ -1,5 +1,6 @@
 ---
 title: "picoCTF2022: Forbidden Paths"
+emoji: "⛳️"
 
 date: 2022-04-18 20:19
 

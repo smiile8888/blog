@@ -1,5 +1,6 @@
 ---
 title: "picoCTF2022: Includes, Inspect HTML, Search Source"
+emoji: "⛳️"
 
 date: 2022-04-01 15:41
 
